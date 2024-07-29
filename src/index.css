@@ -16,7 +16,7 @@
 }
 
 .base_body {
-    padding: 10rem 19rem;
+    padding: 7rem 19rem 0 19rem;
     min-height: 100vh;
 }
 
@@ -26,7 +26,7 @@
 
 .container {
     background-color: rgba(12, 12, 12, 0.8);
-    padding: 3rem;
+    padding: 2rem;
     border: 1px solid #272727;
     border-radius: 10px;
     font-family: "Poppins";
@@ -71,4 +71,12 @@ span {
 .letter {
     font-size: 72px;
     letter-spacing: 25px;
+}
+
+.custom_container {
+    background-color: rgba(12, 12, 12, 0.8);
+    padding: 2rem;
+    border: 1px solid #272727;
+    border-radius: 10px;
+    font-family: "Poppins";
 }

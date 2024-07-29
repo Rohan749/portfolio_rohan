@@ -4,7 +4,7 @@ import BlackButton from '../common/BlackButton'
 const Hero = () => {
     return (
         <div className='base_body'>
-            <div className='common_width flex items-start justify-between h-[70vh]'>
+            <div className='common_width pt-[5rem] flex items-start justify-between h-[80vh]'>
                 <div className='w-[25rem]'>
                     <div className='title'>ME<span>R</span>N <br /> Developer</div>
                     <div className='py-10'>

@@ -3,10 +3,10 @@ import light from "../assets/images/light.png"
 const Experience = () => {
     return (
         <div className='base_body flex items-center'>
-            <div className=' flex w-[100%] h-[100%] items-center justify-between outline-dashed'>
+            <div className=' flex w-[100%] h-[100%] items-center justify-between '>
                 <div className='outline-dashed'>ANIMATION</div>
-                <div className='outline flex flex-col gap-4'>
-                    <div className='container w-[15rem] min-w-[fit-content] relative'>
+                <div className=' flex flex-col gap-4 w-[60%] items-end'>
+                    <div className='custom_container w-[15rem] min-w-[fit-content] relative  mr-[20rem]'>
                         <div className='absolute top-2 right-2'>
                             <img src={light} alt='' />
                         </div>
@@ -33,7 +33,7 @@ const Experience = () => {
                         </div>
                     </div>
 
-                    <div className='container w-[15rem] ml-[20rem] min-w-[fit-content]'>
+                    <div className='custom_container w-[15rem] min-w-[fit-content]'>
                         <div className='subtitle'>TECUDIA</div>
                         <div className='flex flex-col gap-2 font-bold w-[15rem] mt-3'>
                             <div className='flex gap-2'>
@@ -47,7 +47,7 @@ const Experience = () => {
                         </div>
                     </div>
 
-                    <div className='container w-[15rem] min-w-[fit-content]'>
+                    <div className='custom_container w-[15rem] mr-[20rem] min-w-[fit-content]'>
                         <div className='subtitle'>FREELANCE</div>
                         <div className='flex flex-col gap-2 font-bold w-[15rem] mt-3'>
                             <div className='flex gap-2'>

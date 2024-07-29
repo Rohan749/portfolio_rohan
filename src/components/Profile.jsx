@@ -11,7 +11,7 @@ const Profile = () => {
                     <div className='subheader pb-10'>
                         Rohan Kumar Pandey
                     </div>
-                    <div className='container shadow-lg relative'>
+                    <div className='custom_container shadow-lg relative'>
                         <div className='absolute top-2 right-2'>
                             <img src={light} alt='' />
                         </div>

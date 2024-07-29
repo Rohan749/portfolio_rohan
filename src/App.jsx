@@ -9,6 +9,7 @@ import { Header } from './layout/Header'
 import Profile from './components/Profile'
 import Weapons from './components/Weapons'
 import Experience from './components/Experience'
+import { Projects } from './components/Projects'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Profile/>
       <Weapons />
       <Experience />
+      <Projects />
     </>
   )
 }
